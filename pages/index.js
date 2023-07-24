@@ -16,7 +16,7 @@ const LandingPage = () => {
 				<meta name='description' content='Discover your perfect home' />
 			</Head>
 			<div className='relative bg-gray-white w-full flex flex-col items-center justify-start'>
-				<Header hamburger={false} />
+				<Header />
 				<Hero />
 				<AreaContainer />
 				<FeatureContainer />
